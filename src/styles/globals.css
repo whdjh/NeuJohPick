@@ -3,6 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: '87mmilsang';
+  src: url('/public/fonts/87MMILSANG-Regular.woff2') format('woff2'),
+       url('/public//fonts/87MMILSANG-Regular.woff') format('woff');
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,5 +31,5 @@
 
 html,
 body {
-  font-family: '';
+  font-family: '87mmilsang', sans-serif;
 }
