@@ -5,8 +5,8 @@
 
 @font-face {
   font-family: '87mmilsang';
-  src: url('/public/fonts/87MMILSANG-Regular.woff2') format('woff2'),
-       url('/public//fonts/87MMILSANG-Regular.woff') format('woff');
+  src: url('./fonts/87MMILSANG-Regular.woff2') format('woff2'),
+       url('./fonts/87MMILSANG-Regular.woff') format('woff');
   font-display: swap;
 }
 
@@ -31,5 +31,5 @@
 
 html,
 body {
-  font-family: '87mmilsang', sans-serif;
+  font-family: '87mmilsang';
 }

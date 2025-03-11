@@ -1,2 +1,2 @@
 # NeuJohPick(느좋픽)
-진행중
+https://neujohpick.netlify.app/
